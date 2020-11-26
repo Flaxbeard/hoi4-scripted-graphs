@@ -8,8 +8,8 @@ guiTypes = {
 		moveable = yes
 		
 		background = {
-			name = "Background"		
-			quadTextureSprite = "GFX_radar_graph_background"
+			name = "background"		
+			quadTextureSprite = "GFX_Radar_Graph_Background"
 		}
 
 		# Five progress bar iconTypes, corresponding to the five shader files

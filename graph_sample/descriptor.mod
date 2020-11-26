@@ -2,5 +2,5 @@ version="1.0"
 tags={
 	"Utilities"
 }
-name="Radar Graph Sample"
+name="HOI4 Graph Samples"
 supported_version="1.10.2"

@@ -1,7 +1,7 @@
 spriteTypes = {
 
 	spriteType = {
-		name = "GFX_radar_graph_background"
+		name = "GFX_Radar_Graph_Background"
 		textureFile = "/gfx/interface/radar_graph/radar_graph_background.dds"
 	}
 
