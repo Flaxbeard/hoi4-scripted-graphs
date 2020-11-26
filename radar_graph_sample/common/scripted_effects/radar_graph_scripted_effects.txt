@@ -1,0 +1,57 @@
+SAMPLE_randomize_axes_values = {
+	# Sets up random values from 4-9 for each of the axes on the radar graph
+
+	set_variable = { SAMPLE_radar_0 = random }
+	multiply_variable = { SAMPLE_radar_0 = 5 }
+	add_to_variable = { SAMPLE_radar_0 = 4 }
+	subtract_from_variable = { SAMPLE_radar_0 = 0.5 }
+	round_variable = SAMPLE_radar_0
+
+	set_variable = { SAMPLE_radar_1 = random }
+	multiply_variable = { SAMPLE_radar_1 = 5 }
+	add_to_variable = { SAMPLE_radar_1 = 4 }
+	subtract_from_variable = { SAMPLE_radar_1 = 0.5 }
+	round_variable = SAMPLE_radar_1
+
+	set_variable = { SAMPLE_radar_2 = random }
+	multiply_variable = { SAMPLE_radar_2 = 5 }
+	add_to_variable = { SAMPLE_radar_2 = 4 }
+	subtract_from_variable = { SAMPLE_radar_2 = 0.5 }
+	round_variable = SAMPLE_radar_2
+
+	set_variable = { SAMPLE_radar_3 = random }
+	multiply_variable = { SAMPLE_radar_3 = 5 }
+	add_to_variable = { SAMPLE_radar_3 = 4 }
+	subtract_from_variable = { SAMPLE_radar_3 = 0.5 }
+	round_variable = SAMPLE_radar_3
+
+	set_variable = { SAMPLE_radar_4 = random }
+	multiply_variable = { SAMPLE_radar_4 = 5 }
+	add_to_variable = { SAMPLE_radar_4 = 4 }
+	subtract_from_variable = { SAMPLE_radar_4 = 0.5 }
+	round_variable = SAMPLE_radar_4
+}
+
+SAMPLE_convert_axes_values_to_frames = {
+	# Computes the frame values for each of the radar graph progress bars, based on these inputs
+
+	set_variable = { SAMPLE_radar_display_0 = SAMPLE_radar_0 }
+	multiply_variable = { SAMPLE_radar_display_0 = 10 }
+	add_to_variable = { SAMPLE_radar_display_0 = SAMPLE_radar_1 }
+
+	set_variable = { SAMPLE_radar_display_1 = SAMPLE_radar_1  }
+	multiply_variable = { SAMPLE_radar_display_1 = 10 }
+	add_to_variable = { SAMPLE_radar_display_1 = SAMPLE_radar_2 }
+
+	set_variable = { SAMPLE_radar_display_2 = SAMPLE_radar_2 }
+	multiply_variable = { SAMPLE_radar_display_2 = 10 }
+	add_to_variable = { SAMPLE_radar_display_2 = SAMPLE_radar_3 }
+
+	set_variable = { SAMPLE_radar_display_3 = SAMPLE_radar_3 }
+	multiply_variable = { SAMPLE_radar_display_3 = 10 }
+	add_to_variable = { SAMPLE_radar_display_3 = SAMPLE_radar_4 }
+
+	set_variable = { SAMPLE_radar_display_4 = SAMPLE_radar_4 }
+	multiply_variable = { SAMPLE_radar_display_4 = 10 }
+	add_to_variable = { SAMPLE_radar_display_4 = SAMPLE_radar_0 }
+}

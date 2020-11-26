@@ -1,0 +1,57 @@
+scripted_gui = {
+	radar_graph_sample_scripted_gui = {
+		window_name = "radar_graph_sample_gui"
+		context_type = player_context
+
+		visible = {
+			has_country_flag = open_radar_gui
+		}
+
+		effects = {
+			close_button_click = {
+				clr_country_flag = open_radar_gui
+			}
+			refresh_button_click = {
+				# Invoke scripted effects to generate random values and turn those into frame numbers
+				# See scripted effect file
+				
+				SAMPLE_randomize_axes_values = yes
+				SAMPLE_convert_axes_values_to_frames = yes
+			}
+		}
+
+		properties = {
+			radar_0 = {
+				frame = SAMPLE_radar_display_0
+			}
+			radar_1 = {
+				frame = SAMPLE_radar_display_1
+			}
+			radar_2 = {
+				frame = SAMPLE_radar_display_2
+			}
+			radar_3 = {
+				frame = SAMPLE_radar_display_3
+			}
+			radar_4 = {
+				frame = SAMPLE_radar_display_4
+			}
+
+			flag_0 = {
+				image = [USA.GetFlag]
+			}
+			flag_1 = {
+				image = [JAP.GetFlag]
+			}
+			flag_2 = {
+				image = [GER.GetFlag]
+			}
+			flag_3 = {
+				image = [ENG.GetFlag]
+			}
+			flag_4 = {
+				image = [SOV.GetFlag]
+			}
+		}
+	}
+}

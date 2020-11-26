@@ -1,0 +1,65 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_radar_graph_background"
+		textureFile = "/gfx/interface/radar_graph/radar_graph_background.dds"
+	}
+
+	# Five graphical assets, one for each shaderfile
+	progressbartype = {
+		name = "GFX_Radar_0"
+		textureFile1 = "/gfx/interface/radar_graph/radar_graph_fill.dds"
+		textureFile2 = "/gfx/interface/radar_graph/radar_graph_empty.dds"
+		size = {
+			x = 190
+			y = 190
+		}
+		effectFile = "gfx/FX/radar5/0.lua"
+		horizontal = yes
+	}
+	progressbartype = {
+		name = "GFX_Radar_1"
+		textureFile1 = "/gfx/interface/radar_graph/radar_graph_fill.dds"
+		textureFile2 = "/gfx/interface/radar_graph/radar_graph_empty.dds"
+		size = {
+			x = 190
+			y = 190
+		}
+		effectFile = "gfx/FX/radar5/1.lua"
+		horizontal = yes
+	}
+	progressbartype = {
+		name = "GFX_Radar_2"
+		textureFile1 = "/gfx/interface/radar_graph/radar_graph_fill.dds"
+		textureFile2 = "/gfx/interface/radar_graph/radar_graph_empty.dds"
+		size = {
+			x = 190
+			y = 190
+		}
+		effectFile = "gfx/FX/radar5/2.lua"
+		horizontal = yes
+	}
+	progressbartype = {
+		name = "GFX_Radar_3"
+		textureFile1 = "/gfx/interface/radar_graph/radar_graph_fill.dds"
+		textureFile2 = "/gfx/interface/radar_graph/radar_graph_empty.dds"
+		size = {
+			x = 190
+			y = 190
+		}
+		effectFile = "gfx/FX/radar5/3.lua"
+		horizontal = yes
+	}
+	progressbartype = {
+		name = "GFX_Radar_4"
+		textureFile1 = "/gfx/interface/radar_graph/radar_graph_fill.dds"
+		textureFile2 = "/gfx/interface/radar_graph/radar_graph_empty.dds"
+		size = {
+			x = 190
+			y = 190
+		}
+		effectFile = "gfx/FX/radar5/4.lua"
+		horizontal = yes
+	}
+
+}

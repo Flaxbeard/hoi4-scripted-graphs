@@ -1,0 +1,82 @@
+guiTypes = {
+	containerWindowType = {
+		name = "radar_graph_sample_gui"
+		position = { x = 0 y = 0}	
+		size = { width = 250 height= 250 }
+		orientation = center
+		origo = center
+		moveable = yes
+		
+		background = {
+			name = "Background"		
+			quadTextureSprite = "GFX_radar_graph_background"
+		}
+
+		# Five progress bar iconTypes, corresponding to the five shader files
+		iconType = {
+			name = "radar_0"
+			spriteType = "GFX_Radar_0"
+			position = { x = 30 y = 32 }
+		}
+		iconType = {
+			name = "radar_1"
+			spriteType = "GFX_Radar_1"
+			position = { x = 30 y = 32 }
+		}
+		iconType = {
+			name = "radar_2"
+			spriteType = "GFX_Radar_2"
+			position = { x = 30 y = 32 }
+		}
+		iconType = {
+			name = "radar_3"
+			spriteType = "GFX_Radar_3"
+			position = { x = 30 y = 32 }
+		}
+		iconType = {
+			name = "radar_4"
+			spriteType = "GFX_Radar_4"
+			position = { x = 30 y = 32 }
+		}
+
+
+		# Utility buttons for demo, not needed for radar graph
+		buttonType = {
+			name = "close_button"
+			spriteType = "GFX_closebutton"
+			position = { x = 198 y = 20 }
+		}
+		buttonType = {
+			name = "refresh_button"
+			spriteType = "GFX_browser_refresh"
+			position = { x = 16 y = 16 }
+		}
+
+		# Flags for demo, not needed for radar graph
+		iconType = {
+			name = "flag_0"
+			quadTextureSprite ="GFX_flag_small"
+			position = { x = 112 y = 13}
+		}
+		iconType = {
+			name = "flag_1"
+			quadTextureSprite ="GFX_flag_small"
+			position = { x = 12 y = 85}
+		}
+		iconType = {
+			name = "flag_2"
+			quadTextureSprite ="GFX_flag_small"
+			position = { x = 212 y = 85}
+		}
+		iconType = {
+			name = "flag_3"
+			quadTextureSprite ="GFX_flag_small"
+			position = { x = 47 y = 203 }
+		}
+		iconType = {
+			name = "flag_4"
+			quadTextureSprite ="GFX_flag_small"
+			position = { x = 178 y = 203}
+		}
+	}
+}
