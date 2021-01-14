@@ -1,9 +1,12 @@
 # HOI4 Scripted Graphs
 
-Custom shaderfiles and example code for implementing a number of neat visualizations for your Hearts of Iron IV Scripted GUIs.
+Custom shaderfiles and example code for implementing a number of neat visualizations for your Hearts of Iron IV Scripted GUIs. Created for use in [Cold Southern Springs](https://discord.gg/HZpcwUuaSH) and its parent mod, [The New Order: Last Days of Europe](https://steamcommunity.com/sharedfiles/filedetails/?id=2173766180).
 
 ## Guides
 You can find implementation guides and a technical breakdown of what is going on by visiting the [associated GitHub wiki page](https://github.com/Flaxbeard/hoi4-scripted-graphs/wiki).
+
+## License / Credit
+No credit needed, but feel free to shoot me a PM on Discord (Flaxbeard#6752) if you make anything neat with this, I love to see what people can make. If so inclined, feel free to thank "Flaxbeard" in your mod credits, but this is not nececssary.
 
 ## Radar Graphs
 ![An example radar graph](https://i.imgur.com/0p97mii.png) ![An animated version](https://i.imgur.com/09vnBCp.gif)
