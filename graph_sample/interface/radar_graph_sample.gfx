@@ -14,7 +14,9 @@ spriteTypes = {
 			x = 190
 			y = 190
 		}
-		effectFile = "gfx/FX/radar5/0.lua"
+		color = { 0.005 0.000 0.0 0.0 }
+
+		effectFile = "gfx/FX/radar.lua"
 		horizontal = yes
 	}
 	progressbartype = {
